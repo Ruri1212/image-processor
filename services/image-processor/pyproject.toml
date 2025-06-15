@@ -1,0 +1,20 @@
+[project]
+name = "image-processor"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Ruri1212", email = "rikuinoue1007@icloud.com" }
+]
+requires-python = ">=3.12.9"
+dependencies = [
+    "opencv-python>=4.11.0.86",
+    "pillow>=11.2.1",
+]
+
+[project.scripts]
+image-processor = "image_processor:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
