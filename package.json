@@ -2,11 +2,6 @@
   "name": "my-image-service",
   "version": "1.0.0",
   "private": true,
-  "workspaces": [
-    "frontend",
-    "backend",
-    "services/*"
-  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
